@@ -1,0 +1,10 @@
+<table>
+    <tr ng-repeat='row in board track by $index'>
+        <td ng-repeat='element in row track by $index'>
+            <span ng-if='element === 1' class="fa fa-1x fa-square">
+            </span>
+            <span ng-if='element === 0' class="fa fa-1x fa-square-o">
+            </span>
+        </td>
+    </tr>
+</table>

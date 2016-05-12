@@ -1,0 +1,17 @@
+<!doctype html>
+<html ng-app="gameOfLifeApp">
+<head>
+    <script src="angular/angular.min.js"></script>
+    <script src="angularApp.js"></script>
+    <script src="controllers/gameOfLifeController.js"></script>
+    <script src="directives/gameOfLifeBoard.js"></script>
+    <link rel="stylesheet" href="css/gameOfLife.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+<h2>Conway's Game of Life</h2>
+<div ng-controller="GameOfLifeController as gameOfLife">
+    <game-of-life-board board='gameOfLife.board'></game-of-life-board>
+</div>
+</body>
+</html>
