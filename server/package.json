@@ -9,6 +9,9 @@
   "author": "Tim Koski",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.4"
+    "angular": "^1.5.5",
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "font-awesome": "^4.6.1"
   }
 }
