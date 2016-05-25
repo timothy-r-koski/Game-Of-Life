@@ -11,9 +11,8 @@ Special thanks to RosettaCode.org for a nextGen() function for Conway's Game of 
 
 ## Loading and starting the app ##
 - git clone the project locally
-- navigate to /server
 - npm install
-- node nodeApp.js
+- node server\nodeApp.js
 
 ## Possible future updates: ##
 - Re-implement next gen to be more functional
